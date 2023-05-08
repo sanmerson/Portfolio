@@ -46,20 +46,8 @@ export const Home = (): JSX.Element => {
               />
               <Text color="grey4">Ola, eu me chamo {userData.nameUser}</Text>
             </Flex>
-            <Text as="h1" type="heading1" color="grey5">
-            I{" "}
-              <Text as="span" type="heading1" color="brand1">
-                love
-              </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
-            </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Formado em Desenvolvimento Front-end e cursando Back-end na kenzie academy brasil, ainda possuo pouca experiência profissional como desenvolvedor, possuo formação em Analise e desenvolvimento de sistemas e um ano de experiência profissional na área de Analise e Desenvolvimento de sistemas, gosto de me desafiar e de aprender coisas novas.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -92,12 +80,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Outros projetos{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  que estou trabalhando no momento
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
